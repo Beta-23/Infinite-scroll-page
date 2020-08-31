@@ -48,4 +48,9 @@ async function getUnsplashPhotos () {
 	} catch (error) {}
 }
 
+// Check to see if scrolling near bottom of page, Load More Photos
+window.addEventListener('scroll', () => {
+	console.log('Event listener working');
+});
+
 getUnsplashPhotos();
