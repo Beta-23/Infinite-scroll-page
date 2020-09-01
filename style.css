@@ -1,5 +1,10 @@
 @import 'https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap';
-
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
 html {
 	box-sizing: border-box;
 }
@@ -48,6 +53,54 @@ h2 {
 .image-container img {
 	width: 100%;
 	margin-top: 5px;
+}
+
+.footer {
+	width: 100vw;
+	display: block;
+	overflow: hidden;
+	padding: 70px 0;
+	box-sizing: border-box;
+	background-color: #18181a;
+}
+
+.inner-footer {
+	display: block;
+	margin: 0 auto;
+	width: 1110px;
+	height: 100%;
+}
+
+.inner-footer .logo-container {
+	width: 35%;
+	float: left;
+	height: 100%;
+	display: block;
+}
+
+.inner-footer .logo-container img {
+	width: 65%;
+	height: auto;
+}
+
+.inner-footer .footer-third {
+	width: calc(21.666666667% - 20px);
+	margin-right: 10px;
+	float: left;
+	height: 100%;
+}
+
+.inner-footer .footer-third:last-child {
+	margin-right: 0;
+}
+
+.inner-footer .footer-third h1 {
+	font-family: 'arial';
+	font-size: 22px;
+	color: whitesmoke;
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
 }
 /* Media Query: Large Smart-phones */
 @media screen and (max-width: 600px) {
