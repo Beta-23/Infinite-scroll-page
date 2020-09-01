@@ -92,6 +92,8 @@ h2 {
 
 .inner-footer .footer-third:last-child {
 	margin-right: 0;
+	font-family: 'arial';
+	color: whitesmoke;
 }
 
 .inner-footer .footer-third h1 {
@@ -102,6 +104,31 @@ h2 {
 	width: 100%;
 	margin-bottom: 20px;
 }
+
+.inner-footer .footer-third a {
+	font-family: 'arial';
+	font-size: 18px;
+	color: whitesmoke;
+	display: block;
+	font-weight: 200;
+	width: 100%;
+	padding-bottom: 5px;
+}
+.inner-footer .footer-third li {
+	display: inline-block;
+	padding: 0 5px;
+	font-size: 20px;
+}
+
+.inner-footer .footer-third span {
+	color: whitesmoke;
+	font-family: 'arial';
+	display: block;
+	font-size: 16px;
+	font-weight: 200;
+	width: 100%;
+	padding-top: 20px;
+}
 /* Media Query: Large Smart-phones */
 @media screen and (max-width: 600px) {
 	h1,
@@ -110,5 +137,13 @@ h2 {
 	}
 	.image-container {
 		margin: 10px;
+	}
+	.footer .inner-footer {
+		width: 90%;
+	}
+	.inner-footer .logo-container,
+	.inner-footer .footer-third {
+		width: 100%;
+		margin-bottom: 30px;
 	}
 }
